@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pizza Siparişi</string>
+    <string name="beef_cheese">Etli Peynirli</string>
+    <string name="cheese">Peynir</string>
+    <string name="sausage">Sucuk</string>
+    <string name="olive">Zeytin</string>
+    <string name="pepper">Biber</string>
+    <string name="delivery_time">20 dk</string>
+    <string name="delivery_title">Teslimat</string>
+    <string name="pizza_description">Et sever, pizzanla tanışmaya hazırlan !</string>
+    <string name="price">174 ₺</string>
+    <string name="add_to_cart">SEPETE EKLE</string>
+</resources>

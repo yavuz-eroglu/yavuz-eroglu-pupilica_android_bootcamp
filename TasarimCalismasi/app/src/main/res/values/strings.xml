@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pizza Delivery</string>
+    <string name="pizza">Pizza</string>
+    <string name="beef_cheese">Beef Cheese </string>
+    <string name="cheese">Cheese</string>
+    <string name="sausage">Sausage</string>
+    <string name="olive">Olive</string>
+    <string name="pepper">Pepper</string>
+    <string name="delivery_time">20 min</string>
+    <string name="delivery_title">Delivery</string>
+    <string name="pizza_description">Meat Lover, get ready to meet your pizza!</string>
+    <string name="price">$ 5.98</string>
+    <string name="add_to_cart">ADD TO CART</string>
+</resources>
