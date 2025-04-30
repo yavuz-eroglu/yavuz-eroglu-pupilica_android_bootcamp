@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-
-    <color name="dark_blue">#121559</color>
-    <color name="blue">#03318C</color>
-    <color name="polynesian_blue">#0D4FA6</color>
-    <color name="lake_blue">#6089BF</color>
-    <color name="red">#F20505</color>
-    <color name="light_gray">#595959</color>
-    <color name="white_smoke">#F2F2F2</color>
-    <color name="flash_white">#e9ecef</color>
-    <color name="silver">#a5a5a5</color>
-    <color name="rich_black">#03071E</color>
+    <color name="primary">#121559</color>
+    <color name="secondary">#8FB3E5</color>
+    <color name="tertiary">#E0E0E0</color>
+    <color name="background">#121212</color>
+    <color name="on_primary">#E0E0E0</color>
+    <color name="on_surface">#757575</color>
 
 
-    <!--  https://coolors.co/414af2-526af2-8898f2-d97941-bf6545  -->
+    <!--  https://coolors.co/121559-6089bf-595959-a5a5a5-03071e-f2f2f2-ffffff  -->
 
 </resources>
