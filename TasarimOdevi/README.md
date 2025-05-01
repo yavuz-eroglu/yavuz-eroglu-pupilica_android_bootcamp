@@ -1,6 +1,4 @@
-## Ekran Görüntüleri
-### Night Mod
-![image](screenshoots/dark_screen.png) 
+# Ekran Görüntüleri
+## Night Mod - Light Mod
+![image](screenshoots/pupillica_odev_ss.png) 
 
-### Light Mod
-![image](screenshoots/light_screen.png)
