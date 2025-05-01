@@ -64,7 +64,7 @@
         android:layout_marginHorizontal="14dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="62dp"
-        android:text="Don't have an account?"
+        android:text="@string/dont_have_an_account"
         android:textColor="@color/on_primary"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
