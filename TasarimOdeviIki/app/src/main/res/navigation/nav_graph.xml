@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/launchFragment">
+
+    <fragment
+        android:id="@+id/launchFragment"
+        android:name="com.yavuzeroglu.tasarmodeviiki.LaunchFragment"
+        android:label="fragment_launch"
+        tools:layout="@layout/fragment_launch" >
+        <action
+            android:id="@+id/action_launchFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_launchFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.yavuzeroglu.tasarmodeviiki.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_genreSelectionFragment"
+            app:destination="@id/genreSelectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/genreSelectionFragment"
+        android:name="com.yavuzeroglu.tasarmodeviiki.GenreSelectionFragment"
+        android:label="fragment_genre_selection"
+        tools:layout="@layout/fragment_genre_selection" >
+        <action
+            android:id="@+id/action_genreSelectionFragment_to_moviesFragment"
+            app:destination="@id/moviesFragment" />
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.yavuzeroglu.tasarmodeviiki.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_moviesFragment"
+            app:destination="@id/moviesFragment"
+            app:popUpTo="@id/launchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.yavuzeroglu.tasarmodeviiki.MoviesFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" >
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+    </fragment>
+</navigation>

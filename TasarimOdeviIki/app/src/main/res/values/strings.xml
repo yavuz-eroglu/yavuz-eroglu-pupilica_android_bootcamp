@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TasarımOdeviIki</string>
+
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="app_description_launch">Don\'t worry about what to watch tonight, join RandMovie. We\'ll suggest a movie you\'ll love and you can just enjoy the movie. Start Now!</string>
+    <string name="login_to_existing_account">Login to existing account</string>
+    <string name="register_new_account">Register new account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="terms_description">Protected by reCAPTCHA and subject to the RMP Privacy Policy and Terms of Service.</string>
+    <string name="user_name">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="or_signup_with">or signup with</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="movie_actor_director">Movie, Actor, Director</string>
+</resources>

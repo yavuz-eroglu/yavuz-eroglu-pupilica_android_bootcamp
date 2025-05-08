@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenreSelectionFragment">
+
+    <TextView
+        android:id="@+id/selectionTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="84dp"
+        android:layout_marginTop="72dp"
+        android:text="Genres"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Select your favorite genres."
+        android:textColor="@color/on_surface"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selectionTV" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="124dp"
+        android:checked="true"
+        app:chipSpacing="36dp"
+        app:chipSpacingHorizontal="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/selectionTV"
+        app:selectionRequired="true"
+        app:singleLine="false">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/dramaChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tertiary"
+            android:text="Drama"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/comedyChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Comedy"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/actionChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Action"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/adventureChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Adventure"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/horrorChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Horror"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/thrillerChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Thriller"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/sciFiChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Sci-Fi"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/romanceChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Romance"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/mysteryChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Mystery"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/superHeroChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Superhero"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/crimeChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Crime"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/animationChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Animation"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+        <com.google.android.material.chip.Chip
+            android:textColor="@color/tertiary"
+            android:id="@+id/sportsChip"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checkable="true"
+            android:text="Sports"
+            android:textSize="18sp"
+            app:checkedIcon="@drawable/ic_check_mark"
+            app:checkedIconTint="@color/primary"
+            app:chipBackgroundColor="@color/on_secondary"
+            app:chipIconTint="@null"
+            app:chipStrokeColor="@color/secondary" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pickButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="@color/primary"
+        android:text="Pick "
+        android:textColor="@color/on_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chipGroup1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

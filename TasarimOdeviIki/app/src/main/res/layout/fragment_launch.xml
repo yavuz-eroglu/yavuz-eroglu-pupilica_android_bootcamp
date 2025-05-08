@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchFragment">
+
+    <TextView
+        android:id="@+id/getStartedTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="@string/get_started"
+        android:textAlignment="center"
+        android:textColor="@color/background"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appDescriptionTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="18dp"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/app_description_launch"
+        android:textAlignment="center"
+        android:textColor="@color/background"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/getStartedTV" />
+
+    <ImageView
+        android:id="@+id/launchImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/laucnh_image_2_256px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appDescriptionTV" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="34dp"
+        android:layout_marginTop="48dp"
+        android:padding="18dp"
+        android:text="@string/login_to_existing_account"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/primary"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/launchImage" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupButton"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="34dp"
+        android:layout_marginTop="8dp"
+        android:padding="18dp"
+        android:text="@string/register_new_account"
+        android:textColor="@color/primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
