@@ -10,7 +10,7 @@ class SliderAdapter(val images: List<Int>) :
 
     inner class SliderViewHolder(var binding: ItemSlideBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        val image = binding.imageView
+        val image = binding.slideImage
     }
 
     override fun onCreateViewHolder(
